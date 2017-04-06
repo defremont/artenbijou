@@ -1,0 +1,15 @@
+# Site settings
+title: Artenbijou
+email: isa.bel@hotmail.com
+description: Bijoux faites au sein d'une création unique en graines d'Amazonie
+baseurl: "/artenbijou/" # the subpath of your site, e.g. /blog/
+url: "https://github.com/defremont" # the base hostname & protocol for your site
+instagram_username: artenbijou
+phone: +33629665338
+api_key: MDFhZjhmNTctYWZlMC00MzJlLWJiNjktZWU5MzRlYTQwOGZkNjM2MjY3ODM4NzkxODEzMTUx
+
+# Build settings
+markdown: kramdown
+collections:
+  products:
+    output: true

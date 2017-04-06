@@ -1,0 +1,22 @@
+<div class="col-lg-4 col-sm-6">
+<a href="#" class="portfolio-box">
+                    <img src="{{ product.image }}" alt="{{ product.name }}" class="img-responsive"/>
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-category text-faded">
+                                {{ product.name }}
+                            </div>
+                            <div class="project-name">
+                                <button class="btn btn-default btn-xl page-scroll snipcart-add-item"
+    data-item-name="{{ product.name }}"
+    data-item-id="{{ product.sku }}"
+    data-item-image="{{ product.image }}"
+    data-item-url="{{ site.baseurl }}"
+    data-item-price="{{ product.price }}">
+    Acheter {{ product.price }} €
+  </button>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+</div>

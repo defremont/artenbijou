@@ -1,0 +1,8 @@
+<section class="no-padding" id="portfolio">
+    <div class="container-fluid">
+        <div class="row no-gutter">
+            {% for product in site.products %}
+                {% include product.html %}
+           {% endfor %}            
+    </div>
+</section>

@@ -126,7 +126,7 @@ aside {
             }
         }
         &.affix {
-            background-color: white;
+             background-color: #f0ffea;
             border-color: rgba($theme-dark, .5);
             .navbar-header .navbar-brand {
                 color: $theme-primary;
@@ -314,13 +314,17 @@ header {
 .btn-xl {
     padding: 15px 30px;
 }
-
+#services{
+    background-color: rgba(180, 255, 150, 0.20);    
+}
 // Contact
 #contact .fa {
     color: $theme-dark;
     font-size: 4em;
 }
-
+#contact{
+    background-color: rgba(180, 255, 150, 0.20);
+}
 // Extras
 // -- Highlight Color Customization
 ::-moz-selection {

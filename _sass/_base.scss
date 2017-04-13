@@ -5,7 +5,7 @@ body {
 }
 
 body {
-    @include serif-font;
+    @include sans-serif-font;
 }
 
 hr {
@@ -33,9 +33,8 @@ h3,
 h4,
 h5,
 h6 {
-    @include sans-serif-font;
+    @include serif-font;
 }
-
 p {
     font-size: 16px;
     line-height: 1.5;
@@ -166,7 +165,7 @@ header {
         .header-content-inner {
             h1 {
                 font-weight: 700;
-                text-transform: uppercase;
+                
                 margin-top: 0;
                 margin-bottom: 0;
             }

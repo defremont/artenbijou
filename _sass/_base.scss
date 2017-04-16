@@ -125,7 +125,7 @@ aside {
             }
         }
         &.affix {
-             background-color: #f0ffea;
+             background-color: #fff;
             border-color: rgba($theme-dark, .5);
             .navbar-header .navbar-brand {
                 color: $theme-primary;
@@ -314,7 +314,7 @@ header {
     padding: 15px 30px;
 }
 #services{
-    background-color: rgba(180, 255, 150, 0.20);    
+    background-color: #fff;    
 }
 // Contact
 #contact .fa {
